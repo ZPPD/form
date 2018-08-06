@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-     <meta charset='UTF-8'>
-		<title>Client-Side Form</title>
-      <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
-        <link rel='stylesheet' type='text/css' href='style.css'/>
+<head>
+  <meta charset='UTF-8'>
+  <title>Client-Side Form</title>
+  <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> -->
+  <link rel='stylesheet' type='text/css' href='style.css' />
 
-	</head>
-	<body>
-        <!--Add your own HTML!-->
-        <div id='header'><h1>Contact us!</h1></div>
-        <div id='wrap'>
-        <div id='input'>
-        <form name='input' action='#' method='post'>
-        First Name:<br/><input id='firstName' type='text' name='firstname' placeholder='first name'><br/>
-        Family Name:<br/><input id='familyName' type='text' name='familyname' placeholder='family name'><br/>
-        Age:<br/><input id='age' type='number' name='age' placeholeder='18'><br/>
-        Phone Number:<br/><input id='phone' type='tel' name='phone' placeholder='(###)###-####' required pattern="([0-9]{3})-[0-9]{3}-[0-9]{4}"><br/>
-        E-mail:<br/><input id='email' type='email' name='email' placeholder='e-mail'><br/>
-        </form>
-        </div>
-        <div>
-        <form id='options'>
+</head>
+
+<body>
+  <!--Add your own HTML!-->
+  <div id='header'>
+    <h1>Contact us!</h1></div>
+  <div id='wrap'>
+    <div id='input'>
+      <form name='input' action='#' method='post'>
+        First Name:<br/><input id='firstName' type='text' name='firstname' placeholder='first name'><br/> Family Name:<br/><input id='familyName' type='text' name='familyname' placeholder='family name'><br/> Age:
+        <br/><input id='age' type='number' name='age' placeholeder='18'><br/> Phone Number:<br/><input id='phone' type='tel' name='phone' placeholder='(###)###-####' required pattern="([0-9]{3})-[0-9]{3}-[0-9]{4}"><br/> E-mail:
+        <br/><input id='email' type='email' name='email' placeholder='e-mail'><br/>
+      </form>
+    </div>
+    <div>
+      <form id='options'>
         Message:<br/><textarea id='msg' name='msg'></textarea><br/>
         <p>Sex:</p><input id='male' type='radio' name='sex' value='male'>Male
         <input id='female' type='radio' name='sex' value='female'>Female<br/><br/>
@@ -30,9 +30,10 @@
         <input type='checkbox' name='notify' value='services'> I'd like to receive notices pertaining to related websites and their services.<br/><br/>
         <input id='btn' type='submit' value='Submit'>
 
-        </form>
-        </div>
-        </div>
-	</body>
-  <script type='text/javascript' src='script.js'></script>
+      </form>
+    </div>
+  </div>
+</body>
+<script type='text/javascript' src='script.js'></script>
+
 </html>

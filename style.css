@@ -1,57 +1,65 @@
-body{
+body {
   width: 70rem;
   margin-left: 15%;
   background-color: #898e96;
 }
 
-#header{
-    position: relative;
-    top: -10px;
-    background-color: #3b4451;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    height: 40px;
-    }
-h1{
-    text-align: center;
-    color: #f9f9d4;
-    font-family: Lucida Sans Unicode, sans-serif;
-    }
-form{
-    font-family: Verdana, Arial, sans-serif;
-    }
-p{
-    font-family: Verdana, Arial, sans-serif;
-    display: inline-block;
-    }
-input{
-    font-family: Verdana, Arial, sans-serif;
-    color: #191919;
-    }
-textarea{
-    vertical-align: top;
-    width: 300px;
-    color: #191919;
-    }
-#wrap{
-    border-left: 1px solid #888;
-    border-right: 1px solid #888;
-    border-bottom: 1px solid #888;
-    position: relative;
-    top: -10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    box-shadow: 3px 3px 3px #444;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 0.8em;
-    background-color: #ebeced;
-      }
-#input{
-    width: 200px;
-    clear: both;
-    }
-#input input{
-    width: 100%;
-    clear:both;
-    }
+#header {
+  position: relative;
+  top: -10px;
+  background-color: #3b4451;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: #f9f9d4;
+  font-family: Lucida Sans Unicode, sans-serif;
+}
+
+form {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+p {
+  font-family: Verdana, Arial, sans-serif;
+  display: inline-block;
+}
+
+input {
+  font-family: Verdana, Arial, sans-serif;
+  color: #191919;
+}
+
+textarea {
+  vertical-align: top;
+  width: 300px;
+  color: #191919;
+}
+
+#wrap {
+  border-left: 1px solid #888;
+  border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
+  position: relative;
+  top: -10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  box-shadow: 3px 3px 3px #444;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.8em;
+  background-color: #ebeced;
+}
+
+#input {
+  width: 200px;
+  clear: both;
+}
+
+#input input {
+  width: 100%;
+  clear: both;
+}

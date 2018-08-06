@@ -1,23 +1,4 @@
-/*function(event){
-let userAge = document.getElementById('age');
-let click = document.getElementById('btn');
-if (isNaN(userAge)) {
-	console.log("It looks like you didn't enter a number.");
-} else if (userAge < 18) {
-	console.log("You have to be over 18 to complete the form");
-}})*/
 
-/*let userAge = document.getElementById('age');
-function event(userAge){
-if(isNaN(userAge)){
-    console.log('You have to enter your age');
-    } else if(userAge < 18){
-        console.log('You have to be over 18 to complete the form');
-        } else {
-            console.log('The age has been verified');
-            }}
-let click = document.getElementById('btn');
-click.addEventListener('onclick', event(userAge));*/
    function checkFirstName() {
 	    var firstName = document.getElementById("firstName").value;
 	    if (firstName === "") {
@@ -88,24 +69,7 @@ click.addEventListener('onclick', event(userAge));*/
            return false;
        };
     };
-/*$("#btn").click(function() {
-                if(checkFirstName() === false){
 
-			return false;
-                } else if(checkFamilyName() === false){
-                        return false;
-                } else if (checkEmail() === false) {
-			return false;
-		} else if (checkAge() === false) {
-			return false;
-		} else if (checkGender() === false) {
-			return false;
-		} else if (checkMessage() === false) {
-			return false;
-		} else if (checkPhone() === false) {
-      return false;
-    }
-});*/
 
   document.getElementById("btn").addEventListener('click', function(){
     if(checkFirstName() === false){
